@@ -17,7 +17,9 @@ $clientes = getClientes($order);
 <body>
     <header>
         <h1>Listado de Clientes</h1>
-        <img src="./img/banco.jpg" alt="foto banco">
+        <div class="centrar">
+            <img src="./img/banco.jpg" alt="foto banco">
+        </div>
     </header>
 
     <div id="principal">
@@ -37,10 +39,11 @@ $clientes = getClientes($order);
                 <td><?= htmlspecialchars($row['telefono']) ?></td>
             </tr>
             <?php endwhile; ?>
+            
         </table>
     
     </div>
-     <p><a href="add.php">➕ Añadir Cliente</a></p>
+    <p><a href="add.php">➕ Añadir Cliente</a></p> 
 </body>
 
 </html>

@@ -1,8 +1,8 @@
 <?php
-$host = "db";
-$user = "root";
-$pass = "test";
-$dbname = "banco";
+$host = "mysql-toronto.alwaysdata.net";
+$user = "toronto";
+$pass = "jis*#x3!xuG*3pp";
+$dbname = "toronto_bd";
 
 $conn = new mysqli($host, $user, $pass, $dbname);
 

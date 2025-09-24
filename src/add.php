@@ -35,7 +35,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <body>
     <header>
         <h2>Añadir Cliente</h2>
-        <img src="./img/banco.jpg" alt="foto banco">
+        <div class="centrar">
+            <img src="./img/banco.jpg" alt="foto banco">
+        </div>
+
     </header>
     <div id="principal">
 

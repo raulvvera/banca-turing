@@ -1,16 +1,20 @@
-h1 {
-    text-align: center;
+h1,
+h2,
+img {
+  text-align: center;
+}
+
+.centrar {
+  display: flex;
+  justify-content: center;
 }
 
 #principal {
-    padding: 40px;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
+  padding: 40px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
 }
-
-
-
 
 /*.fila-modificable {
     border: 2px solid grey;
@@ -21,20 +25,3 @@ h1 {
     background-color: orange;
 }
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
